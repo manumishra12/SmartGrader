@@ -148,5 +148,5 @@ We welcome contributions to enhance the framework! Here are some ways you can co
 ## 📬 Contact
 For questions, collaborations, or feature requests:
 
-📧 Email: connectmanumishra12@gmail.com
+📧 Email: connectmanumishra12@gmail.com <br />
 💻 GitHub: https://github.com/manumishra12/SmartGrader
