@@ -16,7 +16,7 @@ This project proposes an innovative multimodal AI framework designed to handle d
 
 The proposed system architecture is depicted in the following diagram:
 
-![Proposed System Architecture](./architecture_diagram.png)
+![Proposed System Architecture](https://github.com/manumishra12/SmartGrader/blob/main/assets/architecture.png)
 
 ### Key Components
 
