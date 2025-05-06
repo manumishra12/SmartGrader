@@ -2,72 +2,97 @@
 
 ## 🌟 Overview
 
+SmartGrader is an innovative multimodal AI framework designed to automate the grading of handwritten answer scripts in computer science, particularly focusing on Data Structures and Algorithms (DSA) . Leveraging Vision-Language Models (VLMs) and Large Language Models (LLMs) , this system interprets scanned handwritten responses, evaluates them using domain-specific knowledge, and generates structured feedback aligned with predefined rubrics.
+
 This project proposes an innovative multimodal AI framework designed to handle diverse and complex tasks related to Data Structures and Algorithms (DSA). By leveraging large language models (LLMs), Vision-Language Models (VLMs), and advanced reasoning models, the system aims to create a unified solution capable of processing textual, visual, and structured data. The primary goal is to develop a comprehensive AI-driven DSA tutoring system that can interpret handwritten inputs, analyze problems, and generate solutions with logical reasoning.
 
 ## 🎯 Objectives
 
-1. **Fine-tune LLMs for DSA Expertise**: Utilize structured JSON files as a knowledge source to train LLMs to become domain experts in DSA.
-2. **Integrate VLMs for Visual Understanding**: Employ Qwen-VL models to interpret handwritten inputs such as diagrams, equations, and pseudocode.
-3. **Enhance Logical Reasoning**: Incorporate Google's Gemma 3 model to improve instruction-following abilities, context understanding, and deep analytical reasoning.
-4. **Create a Seamless Multimodal System**: Combine textual, visual, and structured data processing to solve DSA-related problems effectively.
-5. **Revolutionize Educational Tools**: Develop a platform that can assist in coding, problem-solving, and tutoring for DSA concepts.
+1. **Automated Handwritten Script Recognition**
+   - Extract text from scanned images using Vision-Language Models (e.g., Qwen2.5-VL-3B-Instruct).
+   - Preserve structure and context, including flowcharts and equations.
 
-## 📊 Architecture
+2. **Domain-Specific Evaluation Using LLMs**
+   - Fine-tune Google Gemma 3-4B-Instruct model on DSA datasets.
+   - Evaluate answers based on rubrics covering clarity, accuracy, depth, structure, and grammar.
 
-The proposed system architecture is depicted in the following diagram:
+3. **Efficient Model Training with LoRA**
+   - Use Low-Rank Adaptation (LoRA) to fine-tune large models efficiently on limited hardware.
+   - Achieve high performance while minimizing computational overhead.
+
+4. **Integration with RAG for Enhanced Accuracy**
+   - Retrieve relevant concepts from a structured knowledge base during evaluation.
+   - Improve consistency and reduce bias in automated grading.
+
+5. **Real-World Applicability**
+   - Support multilingual input and diverse handwriting styles.
+   - Enable deployment in MOOCs, online assessments, and university-level education systems.
+
+---
+
+## 📊 System Architecture
 
 ![Proposed System Architecture](https://github.com/manumishra12/SmartGrader/blob/main/assets/architecture.png)
 
-### Key Components
+### 🔧 Key Components
 
-1. **Vision-Language Model (VLM) for OCR**:
-   - **Input**: Scanned answer sheets or handwritten content.
-   - **Output**: Extracted text from images using OCR capabilities of the VLM.
+#### 1. **Vision-Language Model (Qwen2.5-VL-3B-Instruct)**
+- **Input**: Scanned handwritten answer sheets, diagrams, and code snippets.
+- **Capabilities**:
+  - Dynamic resolution handling for high-quality image processing.
+  - Multimodal Rotary Position Embedding (M-RoPE) for spatial understanding.
+  - Supports both static and video-based input formats.
+- **Output**: Structured text extracted from visual inputs.
 
-2. **Subject Expert LLM for Grading**:
-   - **Input**: Extracted text from the VLM.
-   - **Processing**:
-     - Fine-tuned LLMs trained on DSA-specific knowledge.
-     - Prompt engineering to guide the model toward accurate analysis and reasoning.
-   - **Output**: Graded output stored in a database.
+#### 2. **Subject Expert LLM (Google Gemma 3-4B-Instruct)**
+- **Input**: Transcribed text from VLM.
+- **Processing**:
+  - Fine-tuned using LoRA on a DSA-specific dataset containing 700+ QA pairs.
+  - Rubric-based prompt engineering for clarity, correctness, and depth evaluation.
+  - Integration with RAG for contextual knowledge retrieval.
+- **Output**: Graded response with detailed feedback stored in JSON format.
 
-3. **Retrieval-Augmented Generation (RAG)**:
-   - Enhances the LLM's ability to retrieve relevant information from a knowledge base for more accurate and context-aware responses.
+#### 3. **Retrieval-Augmented Generation (RAG)**
+- Enhances grading accuracy by retrieving best practices and model solutions from a knowledge base.
+- Ensures alignment with standard teaching methodologies and reduces overfitting.
 
-4. **Qwen-VL Models**:
-   - Handle visual inputs, including diagrams and equations, by converting them into interpretable formats.
+#### 4. **Low-Rank Adaptation (LoRA)**
+- Efficient parameter tuning technique used to fine-tune both VLM and LLM components.
+- Reduces memory usage and training cost significantly compared to full fine-tuning.
 
-5. **Gemma 3 Model**:
-   - Strengthens logical reasoning and problem-solving capabilities through advanced instruction-following and expanded context windows.
+#### 5. **Structured Knowledge Base**
+- Contains manually curated DSA concepts, time complexities, and algorithm descriptions.
+- Used during inference to provide accurate and context-aware evaluations.
+
+---
 
 ## 🛠️ Dependencies
 
-To run this project, the following dependencies are required:
+### Python Libraries
+- `transformers` – For model loading and generation.
+- `torch` – For GPU-accelerated inference.
+- `opencv-python` – For image preprocessing.
+- `json`, `re`, `os`, `random` – For data handling and utilities.
+- `IPython.display` – For Jupyter notebook integration.
 
-1. **Python Libraries**:
-   - `transformers` (Hugging Face library for LLMs and VLMs)
-   - `torch` or `tensorflow` (for model inference)
-   - `opencv-python` (for image processing)
-   - `json` (for handling structured data)
-   - `pandas` (for data manipulation)
+### Models
+- `Qwen2.5-VL-3B-Instruct` – Vision-language model for OCR.
+- `Gemma-3-4B-Instruct` – Large language model for evaluation.
+- Custom fine-tuned versions hosted on Hugging Face.
 
-2. **Models**:
-   - Pre-trained LLMs (e.g., Qwen series, Gemma 3)
-   - Fine-tuned LLMs for DSA expertise
-   - VLMs for OCR and visual understanding
+### Datasets
+- **Handwritten Answer Script Dataset**: 45 samples (40 train + 5 test), varying in quality and complexity.
+- **QA Dataset**: 700+ question-answer pairs covering sorting, searching, trees, graphs, recursion, etc.
+- **Knowledge Base**: Structured JSON files containing DSA concepts and rubrics.
 
-3. **Datasets**:
-   - Structured JSON files for DSA knowledge
-   - Question-Answer datasets for fine-tuning
-   - Handwritten input datasets for training VLMs
+---
 
 ## 🚀 Getting Started
 
 ### Prerequisites
-
 - Python 3.8+
-- GPU support (recommended for faster inference)
-- Hugging Face account (for accessing pre-trained models)
+- CUDA-compatible GPU (recommended)
+- Hugging Face account for model access
 
 ### Installation
 
