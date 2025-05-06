@@ -132,3 +132,21 @@ We welcome contributions to enhance the framework! Here are some ways you can co
 - Expand Dataset Coverage : Contribute additional DSA problems and solutions for training.
 - Enhance Visual Processing : Improve the accuracy of handwritten code recognition.
 - Add New Features : Integrate new models or modalities to expand the system's capabilities.
+
+##  📚 References
+- Wang et al. [2024]. Qwen2.5 VL-3B-Instruct: Enhancing Vision-Language Model's Perception of the World at Any Resolution.
+- Yin et al. [2024]. Gemma: Open Models from Google.
+- Hu et al. [2021]. LoRA: Low-Rank Adaptation of Large Language Models.
+- Baral et al. [2024]. DrawEduMath: A Dataset for Assessing Mathematical Reasoning in Educational Settings.
+  
+## 📌 Future Work
+- Extend support to other technical domains such as Operating Systems, Machine Learning, and Artificial Intelligence.
+- Implement real-time interactive tutoring features.
+- Develop mobile applications for student engagement.
+- Explore federated learning for privacy-preserving updates.
+
+## 📬 Contact
+For questions, collaborations, or feature requests:
+
+📧 Email: connectmanumishra12@gmail.com
+💻 GitHub: https://github.com/manumishra12/SmartGrader
