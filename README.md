@@ -72,19 +72,18 @@ To run this project, the following dependencies are required:
 ### Installation
 
 1. Clone the repository:
-
    ```bash
    git clone https://github.com/manumishra12/SmartGrader.git
    cd multimodal-dsa-framework
    ```
 
 2. Install dependencies
-  ```bash
-  pip install -r requirements.txt
-  ```
+   ```bash
+     pip install -r requirements.txt
+   ```
 
 3. Download pre-trained models:
-  Use Hugging Face's transformers library to download models:
+   Use Hugging Face's transformers library to download models:
    ```bash
     from transformers import AutoModelForCausalLM, AutoTokenizer
     model = AutoModelForCausalLM.from_pretrained("model_name")
@@ -95,11 +94,11 @@ To run this project, the following dependencies are required:
   Place structured JSON files and question-answer datasets in the data/ directory.
   Ensure scanned answer sheets or handwritten inputs are in the input/ directory.
   
-  ```bash
-  python ocr.py --input_dir input/ --output_dir extracted_text/
-  python llm_inference.py --input_dir extracted_text/ --output_dir graded_output/
-  python database.py --input_dir graded_output/
-  ```
+   ```bash
+     python ocr.py --input_dir input/ --output_dir extracted_text/
+     python llm_inference.py --input_dir extracted_text/ --output_dir graded_output/
+     python database.py --input_dir graded_output/
+   ```
 
 ## 🧩 Contributing
 We welcome contributions to enhance the framework! Here are some ways you can contribute:
