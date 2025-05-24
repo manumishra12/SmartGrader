@@ -38,7 +38,7 @@ SmartGrader represents a breakthrough in educational technology, combining cutti
 
 <br />
 
----
+
 
 ## **System Architecture**
 
