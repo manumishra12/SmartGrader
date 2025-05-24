@@ -29,7 +29,14 @@ This project proposes an innovative multimodal AI framework designed to handle d
    - Enable deployment in MOOCs, online assessments, and university-level education systems.
 
 ---
+## Resources:
 
+- **Dataset** `manumishra/dsa_llm_new`: https://huggingface.co/datasets/manumishra/dsa_llm_new
+- **Fintuned** `deepseek-ai/DeepSeek-R1-Distill-Llama-8B`: https://huggingface.co/manumishra/llm_finetuned_dsa
+- **Gemma3** `unsloth/gemma-3-4b-it-unsloth-bnb-4bit`: https://huggingface.co/manumishra/gemma-3-updated
+- **Llama3-3 vision** `llama3-2-vision-ocr`: https://www.kaggle.com/code/manumishrax/llama3-2-vision-ocr
+
+---
 ## 📊 System Architecture
 
 ![Proposed System Architecture](https://github.com/manumishra12/SmartGrader/blob/main/assets/architecture.png)
