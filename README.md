@@ -26,6 +26,18 @@ SmartGrader represents a breakthrough in educational technology, combining cutti
 
 ---
 
+## 🎬 **Live Demo**
+
+<div align="center">
+
+[![SmartGrader Demo Video](https://img.youtube.com/vi/IHQYrcjsR0o/maxresdefault.jpg)](https://youtu.be/IHQYrcjsR0o)
+
+**🎥 Watch SmartGrader in Action** - *Click above to see our AI-powered grading system process handwritten assignments in real-time*
+
+</div>
+
+---
+
 ## ✨ **Key Capabilities**
 
 ### **🔍 Advanced Vision Processing**
