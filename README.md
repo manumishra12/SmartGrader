@@ -36,13 +36,24 @@ SmartGrader represents a breakthrough in educational technology, combining cutti
 
 </div>
 
+<br />
 ---
 
-## 🏗️ **System Architecture**
+## **System Architecture**
+
+<div align="center">
+    <img src="https://github.com/manumishra12/SmartGrader/blob/main/assets/architecture.png" 
+         alt="System Architecture" 
+         width="900" 
+         height="400">
+</div>
+
+<br />
+<br />
 
 <div align="center" style="max-width: 900px; margin: 0 auto;">
 
-### **Complete AI-Powered Assessment Pipeline**
+## **Complete SmartGrader Pipeline**
 
 ```mermaid
 graph TB
@@ -158,6 +169,9 @@ graph TB
 ```
 
 </div>
+
+
+---
 
 ### **Detailed Component Breakdown**
 
