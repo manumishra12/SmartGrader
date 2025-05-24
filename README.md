@@ -1,18 +1,6 @@
 # SmartGrader
 ### *AI-Powered Automated Assessment for Computer Science Education*
 
-<div align="center">
-
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Python](https://img.shields.io/badge/python-3.8+-green.svg)
-![Framework](https://img.shields.io/badge/framework-PyTorch-red.svg)
-![AI](https://img.shields.io/badge/AI-Vision%20%2B%20Language-purple.svg)
-![Status](https://img.shields.io/badge/status-Active-brightgreen.svg)
-
-</div>
-
----
-
 ## 🎯 **Overview**
 
 SmartGrader represents a breakthrough in educational technology, combining cutting-edge Vision-Language Models (VLMs) and Large Language Models (LLMs) to revolutionize the assessment of handwritten computer science assignments. This intelligent framework specializes in Data Structures and Algorithms (DSA) evaluation, transforming traditional grading workflows through automated interpretation, analysis, and structured feedback generation.
@@ -26,8 +14,9 @@ SmartGrader represents a breakthrough in educational technology, combining cutti
 
 ---
 
-## 🎬 **Live Demo**
 
+## 🎬 **Live Demo**
+<p><b>Youtube Video:</b></p>
 <div align="center">
 
 [![SmartGrader Demo Video](https://img.youtube.com/vi/IHQYrcjsR0o/maxresdefault.jpg)](https://youtu.be/IHQYrcjsR0o)
