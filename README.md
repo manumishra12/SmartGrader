@@ -577,16 +577,13 @@ SECURITY_CONFIG = {
 
 ---
 
-## 📞 **Support and Contact**
+## 📞 **Contact**
 
 <div align="center">
-
-**Transform Computer Science Education with Intelligent Assessment**
 
 [![Email](https://img.shields.io/badge/Email-connectmanumishra12%40gmail.com-red?style=for-the-badge&logo=gmail)](mailto:connectmanumishra12@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-SmartGrader-black?style=for-the-badge&logo=github)](https://github.com/manumishra12/SmartGrader)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/manumishra12)
-[![Documentation](https://img.shields.io/badge/Docs-Read%20More-green?style=for-the-badge&logo=gitbook)](https://smartgrader.readthedocs.io)
 
 </div>
 
