@@ -28,9 +28,9 @@ SmartGrader represents a breakthrough in educational technology, combining cutti
 
 <div align="center">
 
-[![SmartGrader Demo Video](https://img.youtube.com/vi/IHQYrcjsR0o/maxresdefault.jpg)](https://youtu.be/IHQYrcjsR0o)
+[![SmartGrader Demo Video](https://img.youtube.com/vi/IHQYrcjsR0o/maxresdefault.jpg)](https://youtu.be/2PB47pxJF5Q)
 
-[![Watch on YouTube](https://img.shields.io/badge/▶️%20Watch%20on-YouTube-red?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/IHQYrcjsR0o)
+[![Watch on YouTube](https://img.shields.io/badge/▶️%20Watch%20on-YouTube-red?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/2PB47pxJF5Q)
 
 **🎥 Watch SmartGrader in Action** - *See our AI-powered grading system process handwritten assignments in real-time*
 
@@ -595,7 +595,7 @@ SECURITY_CONFIG = {
 
 **SmartGrader** - *Revolutionizing Computer Science Education Through Intelligent Assessment*
 
-[![Demo](https://img.shields.io/badge/🎬-Watch%20Demo-green?style=for-the-badge)](https://youtu.be/IHQYrcjsR0o)
+[![Demo](https://img.shields.io/badge/🎬-Watch%20Demo-green?style=for-the-badge)](https://youtu.be/2PB47pxJF5Q)
 
 [![Stars](https://img.shields.io/github/stars/manumishra12/SmartGrader?style=social)](https://github.com/manumishra12/SmartGrader)
 [![Forks](https://img.shields.io/github/forks/manumishra12/SmartGrader?style=social)](https://github.com/manumishra12/SmartGrader)
