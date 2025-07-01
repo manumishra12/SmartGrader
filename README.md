@@ -56,6 +56,8 @@ SmartGrader represents a breakthrough in educational technology, combining cutti
 
 ## **Complete SmartGrader Pipeline**
 
+Link: ```https://shorturl.at/xdCIQ```
+
 ```mermaid
 graph TB
     %% Input Layer
