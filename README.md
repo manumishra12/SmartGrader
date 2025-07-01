@@ -594,8 +594,6 @@ SECURITY_CONFIG = {
 **SmartGrader** - *Revolutionizing Computer Science Education Through Intelligent Assessment*
 
 [![Demo](https://img.shields.io/badge/🎬-Watch%20Demo-green?style=for-the-badge)](https://youtu.be/IHQYrcjsR0o)
-[![Download](https://img.shields.io/badge/📦-Download%20Latest-blue?style=for-the-badge)](https://github.com/manumishra12/SmartGrader/releases)
-[![Paper](https://img.shields.io/badge/📄-Research%20Paper-orange?style=for-the-badge)](https://arxiv.org/abs/smartgrader)
 
 [![Stars](https://img.shields.io/github/stars/manumishra12/SmartGrader?style=social)](https://github.com/manumishra12/SmartGrader)
 [![Forks](https://img.shields.io/github/forks/manumishra12/SmartGrader?style=social)](https://github.com/manumishra12/SmartGrader)
